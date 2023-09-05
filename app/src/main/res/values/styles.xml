@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="title1">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/black1</item>
+    </style>
+    <style name="title2">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/black1</item>
+    </style>
+    <style name="title3">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/black1</item>
+    </style>
+    <style name="paragraph1">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black1</item>
+    </style>
+    <style name="paragraph2">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black1</item>
+    </style>
+    <style name="paragraph3">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black1</item>
+    </style>
+    <style name="subparagraph1">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black1</item>
+    </style>
+    <style name="subparagraph2">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black1</item>
+    </style>
+    <style name="subparagraph3">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black1</item>
+    </style>
+
+
+    <style name="edittext_style">
+        <item name="android:background">@drawable/bg_edittext</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
