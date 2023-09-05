@@ -1,2 +1,2 @@
 # GoSave
-GoSave merupakan..
+GoSave : Personal Money Tracker App
