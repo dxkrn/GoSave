@@ -13,6 +13,12 @@
         android:theme="@style/Theme.GoSave"
         tools:targetApi="31">
         <activity
+            android:name=".ui.SigninPage"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SignupPage"
+            android:exported="false" />
+        <activity
             android:name=".ui.LoginPage"
             android:exported="false" />
         <activity
