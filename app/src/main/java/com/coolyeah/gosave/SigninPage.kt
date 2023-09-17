@@ -1,4 +1,4 @@
-package com.coolyeah.gosave.ui
+package com.coolyeah.gosave
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -13,17 +13,38 @@
         android:theme="@style/Theme.GoSave"
         tools:targetApi="31">
         <activity
-            android:name=".ui.SigninPage"
-            android:exported="false" />
+            android:name=".SigninPage"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
-            android:name=".ui.SignupPage"
-            android:exported="false" />
+            android:name=".SignupPage"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".ui.LoginPage"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".Onboarding_2"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+        <activity
+            android:name=".ui.Onboarding_3"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+        <activity
+            android:name=".ui.Onboarding_4"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+        <activity
+            android:name=".ui.Onboarding_1"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            >
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

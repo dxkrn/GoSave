@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="366dp"
+        app:srcCompat="@drawable/illust_4" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/title3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="392dp"
+        android:layout_marginBottom="229dp"
+        android:gravity="center"
+        android:text="Mari Perlancar \n Urusan Financial"
+        android:textColor="@color/black0" />
+
+    <TextView
+        style="@style/paragraph1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="463dp"
+        android:layout_marginBottom="229dp"
+        android:gravity="center"
+        android:text="Daftar dan mulai rasakan management \n
+keuangan yang lebih baik "
+        android:textColor="@color/white2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="116dp"
+        android:text="Login"
+        style="@style/paragraph1"
+        android:textColor="@color/white0"
+        android:background="@drawable/button_primary"
+        android:backgroundTint="@color/blue1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="57dp"
+        android:text="Daftar "
+        style="@style/paragraph1"
+        android:textColor="@color/blue1"
+        android:background="@drawable/button_primary"
+        android:backgroundTint="@color/white0"
+         />
+
+        />
+
+
+</RelativeLayout>
