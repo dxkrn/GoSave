@@ -68,8 +68,7 @@ keuangan yang lebih baik "
         android:text="Daftar "
         style="@style/paragraph1"
         android:textColor="@color/blue1"
-        android:background="@drawable/button_primary"
-        android:backgroundTint="@color/white0"
+        android:background="@drawable/button_outlined"
          />
 
         />

@@ -21,10 +21,6 @@
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
-            android:name=".ui.LoginPage"
-            android:exported="false"
-            />
-        <activity
             android:name=".Onboarding_2"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"

@@ -1,145 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignupPage"
-    android:orientation="vertical"
-    android:paddingLeft="30dp"
-    android:paddingRight="30dp"
-    >
-
-    <TextView
-        android:id="@+id/textBuatAkun"
-        style="@style/title1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
-        android:gravity="center"
-        android:textColor="@color/black0"
-        android:text="Buat Akun" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bergabunglah Bersama Kami"
-        style="@style/subparagraph1"
-        android:gravity="center"
-        android:textColor="@color/white2"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:padding="10dp"
-        android:text="Nama"
-        style="@style/paragraph2"
-        android:textColor="@color/black1"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:hint="Ketikkan Nama.."
-        style="@style/edittext_style"
-        android:background="@drawable/bg_edittext"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        android:text="Email"
-        style="@style/paragraph2"
-        android:textColor="@color/black1"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:hint="Ketikkan Email.."
-        style="@style/edittext_style"
-        android:background="@drawable/bg_edittext"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        android:text="Password"
-        style="@style/paragraph2"
-        android:textColor="@color/black1"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:hint="Ketikkan Password.."
-        style="@style/edittext_style"
-        android:background="@drawable/bg_edittext"
-        android:drawableEnd="@drawable/icon_visible_show"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        android:text="Konfirmasi Password"
-        style="@style/paragraph2"
-        android:textColor="@color/black1"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Ketikkan Ulang Password.."
-        style="@style/edittext_style"
-        android:background="@drawable/bg_edittext"
-        android:drawableEnd="@drawable/icon_visible_show"
-        />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:text="DAFTAR"
-        style="@style/title4"
-        android:textColor="@color/white0"
-        android:background="@drawable/button_primary"
-        />
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="30dp"
-        >
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sudah memiliki Akun?"
-            style="@style/subparagraph3"
-            android:textColor="@color/white2"
-            />
+        <!-- Rest of your existing layout goes here -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".SignupPage"
+            android:orientation="vertical"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:text="Login di sini"
-            style="@style/paragraph2"
-            android:textColor="@color/primary1"
-            />
+            <TextView
+                android:id="@+id/textBuatAkun"
+                style="@style/title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="92dp"
+                android:gravity="center"
+                android:textColor="@color/black0"
+                android:text="Buat Akun" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bergabunglah Bersama Kami"
+                style="@style/subparagraph1"
+                android:gravity="center"
+                android:textColor="@color/white2"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                android:padding="10dp"
+                android:text="Nama"
+                style="@style/paragraph2"
+                android:textColor="@color/black1"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:hint="Ketikkan Nama.."
+                style="@style/edittext_style"
+                android:background="@drawable/bg_edittext"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Email"
+                style="@style/paragraph2"
+                android:textColor="@color/black1"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:hint="Ketikkan Email.."
+                style="@style/edittext_style"
+                android:background="@drawable/bg_edittext"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Password"
+                style="@style/paragraph2"
+                android:textColor="@color/black1"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:hint="Ketikkan Password.."
+                style="@style/edittext_style"
+                android:background="@drawable/bg_edittext"
+                android:drawableEnd="@drawable/icon_visible_show"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Konfirmasi Password"
+                style="@style/paragraph2"
+                android:textColor="@color/black1"
+                />
+
+            <EditText
+                style="@style/edittext_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edittext"
+                android:drawableEnd="@drawable/icon_visible_show"
+                android:hint="Ketikkan Ulang Password.." />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="64dp"
+                android:text="DAFTAR"
+                style="@style/title4"
+                android:textColor="@color/white0"
+                android:background="@drawable/button_primary"
+                android:backgroundTint="@color/blue1"/>
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sudah memiliki Akun?"
+                    style="@style/subparagraph3"
+                    android:textColor="@color/white2"
+                    />
+
+                <TextView
+                    android:id="@+id/login_disini"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Login di sini"
+                    style="@style/paragraph2"
+                    android:textColor="@color/primary1"
+                    />
+
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:id="@+id/blank_space"/>
+        </LinearLayout>
 
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>
+
